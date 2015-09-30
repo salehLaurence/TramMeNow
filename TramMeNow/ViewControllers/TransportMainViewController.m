@@ -19,6 +19,8 @@
 #import <CoreLocation/CoreLocation.h>
 #import <QuartzCore/QuartzCore.h>
 
+#define IS_SIMULATOR 1
+
 @interface TransportMainViewController ()
 {
     // -- Private ivars
@@ -148,7 +150,7 @@
 {
     if(tramNumber)
     {
-        NSString * imageName = [NSString stringWithFormat:@"tram_%i.png",tramNumber];
+        NSString * imageName = [NSString stringWithFormat:@"tram_%li.png",(long)tramNumber];
         return [UIImage imageNamed:imageName];
     }
     
@@ -355,6 +357,14 @@
     NSString *  latitude = [NSString stringWithFormat:@"%f",locationManager.location.coordinate.latitude];
     NSString *  longitude = [NSString stringWithFormat:@"%f",locationManager.location.coordinate.longitude];
     
+    
+    // -- If the simulator is running we can give it some pre defined values so the app still runs
+    if(IS_SIMULATOR)
+    {
+        latitude = @"47.377944";
+        longitude = @"8.540198";
+    }
+
     // -- If location services have not been enabled we need to stop the request and tell the user
     if([latitude intValue] == 0 || [longitude intValue] == 0)
     {
