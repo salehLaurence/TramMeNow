@@ -361,8 +361,8 @@
     // -- If the simulator is running we can give it some pre defined values so the app still runs
     if(IS_SIMULATOR)
     {
-        latitude = @"47.377944";
-        longitude = @"8.540198";
+        latitude = @"47.373407";
+        longitude = @"8.528743";
     }
 
     // -- If location services have not been enabled we need to stop the request and tell the user
