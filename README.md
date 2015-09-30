@@ -9,7 +9,11 @@ First the app will show you your current location, find out the closest tram/bus
 Future Updates:
 
 -Allow people to specify how many tram/bus stops the app should look for around your current location
+
 -Specify how many trams/busses should be returned by the API
+
 -Localize the app for different languages
+
 -Add common routes that you take with push notification alerts for when your usual tram and bus will be arriving/departing
+
 -Better UI design
