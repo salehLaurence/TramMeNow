@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		296849321BB6D017007FB44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 296849311BB6D017007FB44A /* main.m */; };
+		296849351BB6D017007FB44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 296849341BB6D017007FB44A /* AppDelegate.m */; };
+		296849381BB6D017007FB44A /* TransportMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296849371BB6D017007FB44A /* TransportMainViewController.m */; };
+		2968493B1BB6D017007FB44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296849391BB6D017007FB44A /* Main.storyboard */; };
+		2968493D1BB6D017007FB44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2968493C1BB6D017007FB44A /* Assets.xcassets */; };
+		296849491BB6D0A2007FB44A /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 296849481BB6D0A2007FB44A /* Location.m */; };
+		2968494B1BB6D984007FB44A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2968494A1BB6D984007FB44A /* MapKit.framework */; };
+		DF1B22F11BBBC74100532406 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E11BBBC74100532406 /* default.png */; };
+		DF1B22F21BBBC74100532406 /* tram_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E21BBBC74100532406 /* tram_2.png */; };
+		DF1B22F31BBBC74100532406 /* tram_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E31BBBC74100532406 /* tram_3.png */; };
+		DF1B22F41BBBC74100532406 /* tram_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E41BBBC74100532406 /* tram_4.png */; };
+		DF1B22F51BBBC74100532406 /* tram_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E51BBBC74100532406 /* tram_5.png */; };
+		DF1B22F61BBBC74100532406 /* tram_6.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E61BBBC74100532406 /* tram_6.png */; };
+		DF1B22F71BBBC74100532406 /* tram_7.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E71BBBC74100532406 /* tram_7.png */; };
+		DF1B22F81BBBC74100532406 /* tram_8.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E81BBBC74100532406 /* tram_8.png */; };
+		DF1B22F91BBBC74100532406 /* tram_9.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22E91BBBC74100532406 /* tram_9.png */; };
+		DF1B22FA1BBBC74100532406 /* tram_10.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22EA1BBBC74100532406 /* tram_10.png */; };
+		DF1B22FB1BBBC74100532406 /* tram_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22EB1BBBC74100532406 /* tram_11.png */; };
+		DF1B22FC1BBBC74100532406 /* tram_12.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22EC1BBBC74100532406 /* tram_12.png */; };
+		DF1B22FD1BBBC74100532406 /* tram_13.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22ED1BBBC74100532406 /* tram_13.png */; };
+		DF1B22FE1BBBC74100532406 /* tram_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22EE1BBBC74100532406 /* tram_14.png */; };
+		DF1B22FF1BBBC74100532406 /* tram_15.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22EF1BBBC74100532406 /* tram_15.png */; };
+		DF1B23001BBBC74100532406 /* tram_17.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1B22F01BBBC74100532406 /* tram_17.png */; };
+		DFADB20F1BB9938900620A00 /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB20E1BB9938900620A00 /* Transport.m */; };
+		DFADB2301BBA718400620A00 /* TransportTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB22F1BBA718400620A00 /* TransportTableViewCell.m */; };
+		DFADB2331BBA7A0200620A00 /* UIViewController+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB2321BBA7A0200620A00 /* UIViewController+ViewController.m */; };
+		DFADB2361BBA80D900620A00 /* Bullpen3D.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFADB2351BBA80D900620A00 /* Bullpen3D.ttf */; };
+		DFADB2391BBA828300620A00 /* UIColor+Colour.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB2381BBA828300620A00 /* UIColor+Colour.m */; };
+		DFADB23C1BBA86D900620A00 /* tram_me_button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DFADB23A1BBA86D900620A00 /* tram_me_button_down.png */; };
+		DFADB23D1BBA86D900620A00 /* tram_me_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = DFADB23B1BBA86D900620A00 /* tram_me_button_up.png */; };
+		DFADB2531BBAC86C00620A00 /* RestKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB2521BBAC86C00620A00 /* RestKitManager.m */; };
+		DFADB2561BBAC90E00620A00 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB2551BBAC90E00620A00 /* Constants.m */; };
+		DFADB2591BBAE28600620A00 /* TransportDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB2581BBAE28600620A00 /* TransportDetailViewController.m */; };
+		DFADB2651BBAEA3500620A00 /* JourneyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB2641BBAEA3500620A00 /* JourneyLocation.m */; };
+		DFADB2681BBAF56B00620A00 /* TransportJourneyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFADB2671BBAF56B00620A00 /* TransportJourneyTableViewCell.m */; };
+		E30A8FB460954D89428EB0C9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E4C3BAEB3B3FAA0AF95B27 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2968492D1BB6D017007FB44A /* TramMeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TramMeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		296849311BB6D017007FB44A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		296849331BB6D017007FB44A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		296849341BB6D017007FB44A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		296849361BB6D017007FB44A /* TransportMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransportMainViewController.h; sourceTree = "<group>"; };
+		296849371BB6D017007FB44A /* TransportMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransportMainViewController.m; sourceTree = "<group>"; };
+		2968493A1BB6D017007FB44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2968493C1BB6D017007FB44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		296849411BB6D017007FB44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296849471BB6D0A2007FB44A /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		296849481BB6D0A2007FB44A /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		2968494A1BB6D984007FB44A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		33E4C3BAEB3B3FAA0AF95B27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6961210D7BF1241D57A6017E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE623639F0A277646DCBFF2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DF1B22E11BBBC74100532406 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		DF1B22E21BBBC74100532406 /* tram_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_2.png; sourceTree = "<group>"; };
+		DF1B22E31BBBC74100532406 /* tram_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_3.png; sourceTree = "<group>"; };
+		DF1B22E41BBBC74100532406 /* tram_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_4.png; sourceTree = "<group>"; };
+		DF1B22E51BBBC74100532406 /* tram_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_5.png; sourceTree = "<group>"; };
+		DF1B22E61BBBC74100532406 /* tram_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_6.png; sourceTree = "<group>"; };
+		DF1B22E71BBBC74100532406 /* tram_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_7.png; sourceTree = "<group>"; };
+		DF1B22E81BBBC74100532406 /* tram_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_8.png; sourceTree = "<group>"; };
+		DF1B22E91BBBC74100532406 /* tram_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_9.png; sourceTree = "<group>"; };
+		DF1B22EA1BBBC74100532406 /* tram_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_10.png; sourceTree = "<group>"; };
+		DF1B22EB1BBBC74100532406 /* tram_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_11.png; sourceTree = "<group>"; };
+		DF1B22EC1BBBC74100532406 /* tram_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_12.png; sourceTree = "<group>"; };
+		DF1B22ED1BBBC74100532406 /* tram_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_13.png; sourceTree = "<group>"; };
+		DF1B22EE1BBBC74100532406 /* tram_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_14.png; sourceTree = "<group>"; };
+		DF1B22EF1BBBC74100532406 /* tram_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_15.png; sourceTree = "<group>"; };
+		DF1B22F01BBBC74100532406 /* tram_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_17.png; sourceTree = "<group>"; };
+		DFADB20D1BB9938900620A00 /* Transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transport.h; sourceTree = "<group>"; };
+		DFADB20E1BB9938900620A00 /* Transport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transport.m; sourceTree = "<group>"; };
+		DFADB22E1BBA718400620A00 /* TransportTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportTableViewCell.h; sourceTree = "<group>"; };
+		DFADB22F1BBA718400620A00 /* TransportTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportTableViewCell.m; sourceTree = "<group>"; };
+		DFADB2311BBA7A0200620A00 /* UIViewController+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewController.h"; sourceTree = "<group>"; };
+		DFADB2321BBA7A0200620A00 /* UIViewController+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewController.m"; sourceTree = "<group>"; };
+		DFADB2351BBA80D900620A00 /* Bullpen3D.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bullpen3D.ttf; path = Fonts/Bullpen3D.ttf; sourceTree = "<group>"; };
+		DFADB2371BBA828300620A00 /* UIColor+Colour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colour.h"; sourceTree = "<group>"; };
+		DFADB2381BBA828300620A00 /* UIColor+Colour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colour.m"; sourceTree = "<group>"; };
+		DFADB23A1BBA86D900620A00 /* tram_me_button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_me_button_down.png; sourceTree = "<group>"; };
+		DFADB23B1BBA86D900620A00 /* tram_me_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tram_me_button_up.png; sourceTree = "<group>"; };
+		DFADB2511BBAC86C00620A00 /* RestKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestKitManager.h; sourceTree = "<group>"; };
+		DFADB2521BBAC86C00620A00 /* RestKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestKitManager.m; sourceTree = "<group>"; };
+		DFADB2541BBAC90E00620A00 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DFADB2551BBAC90E00620A00 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		DFADB2571BBAE28600620A00 /* TransportDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportDetailViewController.h; sourceTree = "<group>"; };
+		DFADB2581BBAE28600620A00 /* TransportDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportDetailViewController.m; sourceTree = "<group>"; };
+		DFADB2631BBAEA3500620A00 /* JourneyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JourneyLocation.h; sourceTree = "<group>"; };
+		DFADB2641BBAEA3500620A00 /* JourneyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JourneyLocation.m; sourceTree = "<group>"; };
+		DFADB2661BBAF56B00620A00 /* TransportJourneyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportJourneyTableViewCell.h; sourceTree = "<group>"; };
+		DFADB2671BBAF56B00620A00 /* TransportJourneyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportJourneyTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2968492A1BB6D017007FB44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2968494B1BB6D984007FB44A /* MapKit.framework in Frameworks */,
+				E30A8FB460954D89428EB0C9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296849241BB6D017007FB44A = {
+			isa = PBXGroup;
+			children = (
+				2968492F1BB6D017007FB44A /* TramMeNow */,
+				2968492E1BB6D017007FB44A /* Products */,
+				64F4D58F0209A85280F6FD19 /* Pods */,
+				D3FBCE13A3C74170BB835475 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2968492E1BB6D017007FB44A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2968492D1BB6D017007FB44A /* TramMeNow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2968492F1BB6D017007FB44A /* TramMeNow */ = {
+			isa = PBXGroup;
+			children = (
+				296849341BB6D017007FB44A /* AppDelegate.m */,
+				296849331BB6D017007FB44A /* AppDelegate.h */,
+				DFADB1EE1BB9902C00620A00 /* Assets */,
+				DFADB25E1BBAE57000620A00 /* Categories */,
+				DFADB25D1BBAE55E00620A00 /* ViewControllers */,
+				DFADB25F1BBAE58100620A00 /* TableCells */,
+				DFADB2611BBAE5AA00620A00 /* Models */,
+				DFADB2601BBAE59B00620A00 /* Utils */,
+				296849391BB6D017007FB44A /* Main.storyboard */,
+				2968493C1BB6D017007FB44A /* Assets.xcassets */,
+				296849411BB6D017007FB44A /* Info.plist */,
+				296849301BB6D017007FB44A /* Supporting Files */,
+			);
+			path = TramMeNow;
+			sourceTree = "<group>";
+		};
+		296849301BB6D017007FB44A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				296849311BB6D017007FB44A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64F4D58F0209A85280F6FD19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6961210D7BF1241D57A6017E /* Pods.debug.xcconfig */,
+				CAE623639F0A277646DCBFF2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3FBCE13A3C74170BB835475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2968494A1BB6D984007FB44A /* MapKit.framework */,
+				33E4C3BAEB3B3FAA0AF95B27 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF1B22E01BBBC70E00532406 /* TramColours */ = {
+			isa = PBXGroup;
+			children = (
+				DF1B22E11BBBC74100532406 /* default.png */,
+				DF1B22E21BBBC74100532406 /* tram_2.png */,
+				DF1B22E31BBBC74100532406 /* tram_3.png */,
+				DF1B22E41BBBC74100532406 /* tram_4.png */,
+				DF1B22E51BBBC74100532406 /* tram_5.png */,
+				DF1B22E61BBBC74100532406 /* tram_6.png */,
+				DF1B22E71BBBC74100532406 /* tram_7.png */,
+				DF1B22E81BBBC74100532406 /* tram_8.png */,
+				DF1B22E91BBBC74100532406 /* tram_9.png */,
+				DF1B22EA1BBBC74100532406 /* tram_10.png */,
+				DF1B22EB1BBBC74100532406 /* tram_11.png */,
+				DF1B22EC1BBBC74100532406 /* tram_12.png */,
+				DF1B22ED1BBBC74100532406 /* tram_13.png */,
+				DF1B22EE1BBBC74100532406 /* tram_14.png */,
+				DF1B22EF1BBBC74100532406 /* tram_15.png */,
+				DF1B22F01BBBC74100532406 /* tram_17.png */,
+			);
+			path = TramColours;
+			sourceTree = "<group>";
+		};
+		DFADB1EE1BB9902C00620A00 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DF1B22E01BBBC70E00532406 /* TramColours */,
+				DFADB2621BBAE5DC00620A00 /* Images */,
+				DFADB2341BBA80C400620A00 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DFADB2341BBA80C400620A00 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DFADB2351BBA80D900620A00 /* Bullpen3D.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		DFADB25D1BBAE55E00620A00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				296849361BB6D017007FB44A /* TransportMainViewController.h */,
+				296849371BB6D017007FB44A /* TransportMainViewController.m */,
+				DFADB2571BBAE28600620A00 /* TransportDetailViewController.h */,
+				DFADB2581BBAE28600620A00 /* TransportDetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DFADB25E1BBAE57000620A00 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DFADB2311BBA7A0200620A00 /* UIViewController+ViewController.h */,
+				DFADB2321BBA7A0200620A00 /* UIViewController+ViewController.m */,
+				DFADB2371BBA828300620A00 /* UIColor+Colour.h */,
+				DFADB2381BBA828300620A00 /* UIColor+Colour.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DFADB25F1BBAE58100620A00 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				DFADB22E1BBA718400620A00 /* TransportTableViewCell.h */,
+				DFADB22F1BBA718400620A00 /* TransportTableViewCell.m */,
+				DFADB2661BBAF56B00620A00 /* TransportJourneyTableViewCell.h */,
+				DFADB2671BBAF56B00620A00 /* TransportJourneyTableViewCell.m */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		DFADB2601BBAE59B00620A00 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DFADB2511BBAC86C00620A00 /* RestKitManager.h */,
+				DFADB2521BBAC86C00620A00 /* RestKitManager.m */,
+				DFADB2541BBAC90E00620A00 /* Constants.h */,
+				DFADB2551BBAC90E00620A00 /* Constants.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DFADB2611BBAE5AA00620A00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFADB2631BBAEA3500620A00 /* JourneyLocation.h */,
+				DFADB2641BBAEA3500620A00 /* JourneyLocation.m */,
+				296849471BB6D0A2007FB44A /* Location.h */,
+				296849481BB6D0A2007FB44A /* Location.m */,
+				DFADB20D1BB9938900620A00 /* Transport.h */,
+				DFADB20E1BB9938900620A00 /* Transport.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFADB2621BBAE5DC00620A00 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DFADB23A1BBA86D900620A00 /* tram_me_button_down.png */,
+				DFADB23B1BBA86D900620A00 /* tram_me_button_up.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2968492C1BB6D017007FB44A /* TramMeNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 296849441BB6D017007FB44A /* Build configuration list for PBXNativeTarget "TramMeNow" */;
+			buildPhases = (
+				C59B6B3E4CAB7E6130B2565A /* Check Pods Manifest.lock */,
+				296849291BB6D017007FB44A /* Sources */,
+				2968492A1BB6D017007FB44A /* Frameworks */,
+				2968492B1BB6D017007FB44A /* Resources */,
+				36EBDEAE001C93244536325F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TramMeNow;
+			productName = TramMeNow;
+			productReference = 2968492D1BB6D017007FB44A /* TramMeNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		296849251BB6D017007FB44A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Laurence Saleh";
+				TargetAttributes = {
+					2968492C1BB6D017007FB44A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 296849281BB6D017007FB44A /* Build configuration list for PBXProject "TramMeNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 296849241BB6D017007FB44A;
+			productRefGroup = 2968492E1BB6D017007FB44A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2968492C1BB6D017007FB44A /* TramMeNow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2968492B1BB6D017007FB44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1B22F21BBBC74100532406 /* tram_2.png in Resources */,
+				DF1B22FA1BBBC74100532406 /* tram_10.png in Resources */,
+				2968493D1BB6D017007FB44A /* Assets.xcassets in Resources */,
+				DF1B22FC1BBBC74100532406 /* tram_12.png in Resources */,
+				DF1B22FB1BBBC74100532406 /* tram_11.png in Resources */,
+				DFADB2361BBA80D900620A00 /* Bullpen3D.ttf in Resources */,
+				DF1B22F31BBBC74100532406 /* tram_3.png in Resources */,
+				DFADB23D1BBA86D900620A00 /* tram_me_button_up.png in Resources */,
+				DF1B22FE1BBBC74100532406 /* tram_14.png in Resources */,
+				DFADB23C1BBA86D900620A00 /* tram_me_button_down.png in Resources */,
+				2968493B1BB6D017007FB44A /* Main.storyboard in Resources */,
+				DF1B22FF1BBBC74100532406 /* tram_15.png in Resources */,
+				DF1B22F91BBBC74100532406 /* tram_9.png in Resources */,
+				DF1B23001BBBC74100532406 /* tram_17.png in Resources */,
+				DF1B22F51BBBC74100532406 /* tram_5.png in Resources */,
+				DF1B22F61BBBC74100532406 /* tram_6.png in Resources */,
+				DF1B22FD1BBBC74100532406 /* tram_13.png in Resources */,
+				DF1B22F11BBBC74100532406 /* default.png in Resources */,
+				DF1B22F41BBBC74100532406 /* tram_4.png in Resources */,
+				DF1B22F81BBBC74100532406 /* tram_8.png in Resources */,
+				DF1B22F71BBBC74100532406 /* tram_7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36EBDEAE001C93244536325F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59B6B3E4CAB7E6130B2565A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		296849291BB6D017007FB44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFADB2531BBAC86C00620A00 /* RestKitManager.m in Sources */,
+				DFADB2651BBAEA3500620A00 /* JourneyLocation.m in Sources */,
+				DFADB2681BBAF56B00620A00 /* TransportJourneyTableViewCell.m in Sources */,
+				296849381BB6D017007FB44A /* TransportMainViewController.m in Sources */,
+				296849351BB6D017007FB44A /* AppDelegate.m in Sources */,
+				296849491BB6D0A2007FB44A /* Location.m in Sources */,
+				DFADB2301BBA718400620A00 /* TransportTableViewCell.m in Sources */,
+				DFADB2591BBAE28600620A00 /* TransportDetailViewController.m in Sources */,
+				DFADB2561BBAC90E00620A00 /* Constants.m in Sources */,
+				DFADB2331BBA7A0200620A00 /* UIViewController+ViewController.m in Sources */,
+				DFADB20F1BB9938900620A00 /* Transport.m in Sources */,
+				296849321BB6D017007FB44A /* main.m in Sources */,
+				DFADB2391BBA828300620A00 /* UIColor+Colour.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		296849391BB6D017007FB44A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2968493A1BB6D017007FB44A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		296849421BB6D017007FB44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		296849431BB6D017007FB44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		296849451BB6D017007FB44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6961210D7BF1241D57A6017E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TramMeNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laurenceSaleh.TramMeNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		296849461BB6D017007FB44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE623639F0A277646DCBFF2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TramMeNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laurenceSaleh.TramMeNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		296849281BB6D017007FB44A /* Build configuration list for PBXProject "TramMeNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296849421BB6D017007FB44A /* Debug */,
+				296849431BB6D017007FB44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		296849441BB6D017007FB44A /* Build configuration list for PBXNativeTarget "TramMeNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296849451BB6D017007FB44A /* Debug */,
+				296849461BB6D017007FB44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 296849251BB6D017007FB44A /* Project object */;
+}
